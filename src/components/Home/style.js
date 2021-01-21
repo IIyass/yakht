@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import hero from '../../illustartions/hero.svg';
+import hero from '../../images/hero.svg';
 import media from '../../Device';
 
 export const HeroContainer = styled.div`

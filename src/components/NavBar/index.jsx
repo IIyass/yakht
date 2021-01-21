@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavWrapper, Toggle } from './style';
-import Logo from '../../illustartions/logo.svg';
+import Logo from '../../images/logo.svg';
 import ToggleContext from '../../context/ToggleContext';
 
 const Hero = () => {

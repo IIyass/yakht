@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import React from 'react';
-import Union from '../../illustartions/Union.svg'
+import Union from '../../images/Union.svg'
 import media from '../../Device';
 
 const Input = styled.input.attrs(props => ({
-    type: props.type,
+  type: props.type,
 }))`
       background: rgba(255, 255, 255, 0.2);   
       border-radius: 300px;
@@ -54,14 +54,14 @@ const Container = styled.div`
   `;
 
 const SearchInput = (props) => {
-    return (
-        <Container>
-            <Input
-                {...props}
-            />
-            <img src={Union} alt="union" />
-        </Container>
-    )
+  return (
+    <Container>
+      <Input
+        {...props}
+      />
+      <img src={Union} alt="union" />
+    </Container>
+  )
 }
 
 export default SearchInput;

@@ -1,9 +1,9 @@
 import React from 'react';
 import { HeroContainer, MobileToggle } from './style';
 import SearchInput from '../UI/input';
-import Facebook from '../../illustartions/facebook.svg';
-import Linkdin from '../../illustartions/linkdin.svg';
-import Twitter from '../../illustartions/twitter.svg';
+import Facebook from '../../images/facebook.svg';
+import Linkdin from '../../images/linkdin.svg';
+import Twitter from '../../images/twitter.svg';
 import DeviceButton from '../UI/SocialIconButton';
 import ToggleContext from '../../context/ToggleContext';
 

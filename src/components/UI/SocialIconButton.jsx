@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React from 'react';
-import Ios from '../../illustartions/ios.svg';
-import Android from '../../illustartions/android.svg'
+import Ios from '../../images/ios.svg';
+import Android from '../../images/android.svg'
 import media from '../../Device';
 
 export const DeviceButton = styled.div`
